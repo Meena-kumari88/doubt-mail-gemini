@@ -5,12 +5,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: url('https://cdn1.vectorstock.com/i/1000x1000/98/60/world-high-tech-abstract-background-vector-23799860.jpg');
-  background-size: cover; 
-  background-position: center;
-  /* linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  */
-  
-  
 }
 
 code {

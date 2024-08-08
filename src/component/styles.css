@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+form {
+  width: 100%;
+  max-width: 500px;
+}
+
+h1 {
+  font-family:"Signika", sans-serif;
+  margin-bottom: 20px;
+}
+.title{
+  color:aliceblue;
+}
+
+.custom-label {
+  padding: 10px;
+  font-size: 1.2rem; 
+  font-family:"Signika", sans-serif;
+}
+
+.shadow-sm {
+  box-shadow: 0 .125rem .25rem rgba(165, 33, 33, 0.075)!important; 
+}
+
+.btn {
+  margin-top: 20px; /* Add margin to the submit button */
+}
+
+#myform {
+  background-color: rgba(0, 0, 0, 0.5); /* Transparent background */
+  border: 2px solid rgb(193, 195, 197); /* Green border */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* Inner padding */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Shadow effect */
+  color: white; /* White font color */
+  font-family: 'Arial', sans-serif; /* Change font family */
+}
+#mybtn{
+  background-color:rgb(4, 14, 70);
+  font-size: 18px;
+  border: 2px solid rgb(193, 195, 197); /* Green border */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Shadow effect */
+  color: white; /* White font color */
+  font-family: 'Arial', sans-serif; /* Change font family */
+}
