@@ -1,14 +1,19 @@
 body {
   margin: 0;
+  padding: 0;
+  height: 100%;
+  min-height: 100vh;
+  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: url('https://cdn1.vectorstock.com/i/1000x1000/98/60/world-high-tech-abstract-background-vector-23799860.jpg');
-  background-size: cover; 
-  background-position: center;
-  /* linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  */
+  background: url('https://images-ext-1.discordapp.net/external/yHk-0t4gT8l2iKovBhDOcbfHvICZrKuWKzgvJYG1NjI/https/png.pngtree.com/background/20231030/original/pngtree-d-rendering-of-a-technology-background-with-bright-blue-glowing-lines-picture-image_5808472.jpg?format=webp&width=980&height=549');
+  background-size: cover;  /* Image ko pura element cover karne ke liye */
+  background-repeat: no-repeat;  /* Image ko repeat hone se rokna */
+  background-position: center;  /* Image ko center position mein rakhna */
+  
   
   
 }

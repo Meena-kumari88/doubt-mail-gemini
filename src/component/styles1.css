@@ -1,0 +1,35 @@
+
+.heading{
+    font-size: 4rem;
+    font-family:"Signika", sans-serif;
+    text-align: center;
+    font-weight: bold;
+    color:rgb(242, 243, 245);
+    margin: 50px;
+  }
+  .para{
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+    color:rgb(10, 10, 10);
+  }
+  #btn{
+    border:solid 2px #f1f1f2;
+    box-shadow: 0 0 10px #3f2d8f;
+    font-size: 22px;
+    padding: 10px;
+    width: 150px;
+    border-radius: 10px;
+    color:rgb(1, 43, 78);
+    font-weight: bold;
+    background-color: rgb(211, 214, 217);
+  }
+  #btn:hover{
+    color: #e1e1e2;
+    background-color:#376ca6;
+  }
+  .container {
+    content: '';
+      width: 80px;
+      padding: 8px;
+    }
